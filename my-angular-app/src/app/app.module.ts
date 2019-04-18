@@ -7,6 +7,9 @@ import { AppComponent } from './app.component';
 import { PaisesComponent } from './components/paises.component';
 import { CiudadesComponent } from './components/ciudades.component';
 
+// Config router
+import {routing, appRoutingProviders} from './app.routing';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,9 +17,10 @@ import { CiudadesComponent } from './components/ciudades.component';
     CiudadesComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    routing
   ],
-  providers: [],
+  providers: [appRoutingProviders],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

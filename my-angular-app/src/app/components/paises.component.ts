@@ -10,7 +10,6 @@ import {Component} from '@angular/core';
                     <li>Holanda</li>
                     <li>México</li>
                 </ul>
-                <ciudades></ciudades>
                 `
 })
 
