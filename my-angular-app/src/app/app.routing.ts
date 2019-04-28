@@ -11,7 +11,8 @@ const appRoutes: Routes = [
         redirectTo: '/paises'
     },
     { path: 'paises', component: PaisesComponent },
-    { path: 'ciudades', component: CiudadesComponent }
+    { path: 'ciudades', component: CiudadesComponent },
+    { path: 'la-ciudad/:id', component: CiudadesComponent }
 ];
 
 export const appRoutingProviders: any[] = [];

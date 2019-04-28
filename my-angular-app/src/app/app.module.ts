@@ -1,6 +1,7 @@
 // Modulos
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpModule, JsonpModule } from '@angular/http';
 
 // Componentes
 import { AppComponent } from './app.component';
@@ -18,6 +19,7 @@ import {routing, appRoutingProviders} from './app.routing';
   ],
   imports: [
     BrowserModule,
+    HttpModule,
     routing
   ],
   providers: [appRoutingProviders],
